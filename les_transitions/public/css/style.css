@@ -94,6 +94,16 @@ section {
 /* fin exo 06 les transitions */
 
 /* début exo 07 les transitions */
+.transition_07 {
+  background-color: green;
+  height: 150px;
+  width: 50px;
+  transition-duration: 3s;
+  transition-timing-function: eas;
+}
+.transition_07:active {
+  margin: 80%;
+}
 
 /* fin exo 07 les transitions */
 
