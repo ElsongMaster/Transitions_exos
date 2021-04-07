@@ -49,10 +49,19 @@ section {
   border: 2px solid blue;
   border-radius: 10px;
 }
-
 /* fin exo 03 les_focus_03 */
 
 /* début exo 04 les transitions */
+.transition_04 {
+  background-color: yellow;
+  height: 150px;
+  width: 150px;
+  transition: 4s;
+}
+
+.transition_04:hover {
+  background-color: red;
+}
 
 /* fin exo 04 les transitions */
 
