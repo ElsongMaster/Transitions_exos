@@ -124,9 +124,54 @@ section {
 /* fin exo 08 les transitions */
 
 /* début exo 09 les transitions */
+.transition_09 {
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+}
+.transition_09_enfant {
+  height: 20%;
+  width: 20%;
+  background-color: lightblue;
+  transition: 3s;
+}
 
+.transition_09:active > .transition_09_enfant {
+  background-color: red;
+}
 /* fin exo 09 les transitions */
 
 /* début exo 10 les transitions */
+
+.transition_10 {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+}
+
+.transition_10_intrus {
+  height: 20%;
+  width: 20%;
+  background-color: lightblue;
+  border-radius: 50%;
+}
+
+.transition_10,
+.transition_10_intrus {
+  transition-duration: 5s;
+  transition-timing-function: ease-out;
+}
+
+#les_transition_10:hover > .transition_10 {
+  margin-left: 80%;
+  border-radius: 50%;
+  background-color: rgb(255, 174, 0);
+}
+
+#les_transition_10:hover .transition_10_intrus {
+  margin-left: 135px;
+  border-radius: 0;
+  background-color: blue;
+}
 
 /* fin exo 10 les transitions */
